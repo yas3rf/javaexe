@@ -1,6 +1,6 @@
 package com.company.polymorphism;
 
-public class Main {
+public class Ford {
     public static void main(String[] args){
         Cars car = new Cars("base car",8);
 
@@ -60,7 +60,7 @@ public class Main {
         }
     }
 
-    static class Ferrari extends Cars{
+        static class Ferrari extends Cars{
         @Override
         public String startEngine() {
             return "Ferrari -> startEngine() ";
